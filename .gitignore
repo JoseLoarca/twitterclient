@@ -39,3 +39,4 @@ captures/
 # Keystore files
 *.jks
 TwitterClient/gradle.properties
+TwitterClient/app/fabric.properties
