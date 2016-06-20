@@ -14,7 +14,7 @@ import com.twitter.sdk.android.Twitter;
 
 import org.jcloarca.twitterclient.LoginActivity;
 import org.jcloarca.twitterclient.R;
-import org.jcloarca.twitterclient.hashtags.HashtagsFragment;
+import org.jcloarca.twitterclient.hashtags.ui.HashtagsFragment;
 import org.jcloarca.twitterclient.images.ui.ImagesFragment;
 import org.jcloarca.twitterclient.main.ui.adapters.MainSectionsPagerAdapter;
 
