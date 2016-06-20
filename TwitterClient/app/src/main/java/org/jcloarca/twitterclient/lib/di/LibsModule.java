@@ -1,6 +1,6 @@
 package org.jcloarca.twitterclient.lib.di;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
@@ -21,6 +21,10 @@ import dagger.Provides;
 @Module
 public class LibsModule {
     private Fragment fragment;
+
+    public LibsModule(Fragment fragment) {
+        this.fragment = fragment;
+    }
 
     @Provides
     @Singleton
