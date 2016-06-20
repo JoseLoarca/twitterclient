@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:text="New Text"
         android:id="@+id/txtHashtag"
-        android:textColor="@android:color/white"
-        android:background="@android:color/holo_blue_dark"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
         android:padding="@dimen/appbar_padding_top"/>
 </LinearLayout>
